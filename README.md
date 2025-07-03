@@ -73,8 +73,3 @@ Prerequisites
 # Setup Database
 - Update connection strings in `appsettings.json`
 - Run EF Core migrations or SQL scripts (if provided)
-
----
-
-## 📜 License
-This is a student project. For educational purposes only.
