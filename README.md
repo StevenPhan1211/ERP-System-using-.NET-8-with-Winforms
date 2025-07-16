@@ -30,10 +30,10 @@ This solution consists of two main components:
 ```bash
 HTHGroup_ERP/
 │
-├── Backend/              # .NET 8 Web API following Clean Architecture
-│   ├── Domain/           # Business entities and interfaces
+├── Backend/              # .NET 8 Web API with Clean Architecture
+|   ├── Infrastructure/   # Data access & external services
+│   ├── Core/             # Business entities and interfaces
 │   ├── Application/      # Use cases and DTOs
-│   ├── Infrastructure/   # Data access & external services
 │   └── Presentation/     # API Controllers
 │
 ├── Frontend/             # WinForms UI (.NET Framework 4.8)
