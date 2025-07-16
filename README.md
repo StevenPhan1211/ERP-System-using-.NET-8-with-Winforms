@@ -31,7 +31,7 @@ This solution consists of two main components:
 HTHGroup_ERP/
 │
 ├── Backend/              # .NET 8 Web API with Clean Architecture
-|   ├── Infrastructure/   # Data access & external services
+│   ├── Infrastructure/   # Data access & external services
 │   ├── Core/             # Business entities and interfaces
 │   ├── Application/      # Use cases and DTOs
 │   └── Presentation/     # API Controllers
