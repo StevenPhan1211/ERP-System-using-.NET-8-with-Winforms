@@ -71,7 +71,7 @@ Prerequisites
 6. Run the API
 
 ## Before you want to use this UI layer
-This project is using DevExpress to create Winforms application as Frontend. Makesure you have installed DevExpress in your computer. If not, go to DevExpress page `https://www.devexpress.com/` to install it. After installed it, you're good to go
+This project is using DevExpress to create Winforms application as Frontend. Make sure you have installed DevExpress in your computer. If not, go to DevExpress page `https://www.devexpress.com/` to install it. After installed it, you're good to go
 
 ## Run Frontend
 1. Open Frontend project (WinForms) in Visual Studio 2022
