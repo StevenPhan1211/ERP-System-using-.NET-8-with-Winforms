@@ -37,6 +37,8 @@ HTHGroup_ERP/
 │   └── Presentation/     # API Controllers
 │
 ├── Frontend/             # WinForms UI (.NET Framework 4.8)
+│   ├── BLL/   # Bussiness Logic Layer to get API endpoints
+│   └── DAL/   # User Interfaces
 ├── packages/             # NuGet packages (if used offline)
 ├── HTHGroup_ERP.sln      # Visual Studio solution file
 └── README.md
