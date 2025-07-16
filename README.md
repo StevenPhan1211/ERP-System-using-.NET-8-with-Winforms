@@ -60,7 +60,7 @@ Prerequisites
 
 ---
 
-## How to Run
+## How to Run Project
 
 # Run Backend
 1. Open Backend project in Visual Studio 2022
