@@ -56,7 +56,7 @@ Prerequisites
 
 ✅ .NET Framework 4.8 Developer Pack
 
-✅ Microsoft SQL Server (Local or Remote)
+✅ Microsoft SQL Server 2022 (I am using Developer version)
 
 ---
 
