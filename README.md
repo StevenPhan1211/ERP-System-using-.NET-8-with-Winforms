@@ -60,20 +60,19 @@ Prerequisites
 
 ---
 
-## How to Run Project
+# How to Run Project
 
-# Run Backend
+## Run Backend
 1. Open Visual Studio 2022
 2. Clone this Repository by using command `https://github.com/StevenPhan1211/ERP-System-using-.NET-8-with-Winforms.git`
 3. Restore NuGet packages
-4. Because I am using Code-first to generate database so you should go to `Appsetting.json` in `ERRP.Api` layer to setting your database environment
+4. Because I am using Code-first to generate database so you should go to `appsettings.json` in `ERP.Api` layer to setting your connection strings
 5. Open `Tools` --> `NuGet Package Manager` --> `Package Manager Console` --> Choose Default Project `ERP.Infrastructure` and run this command `Update-Database` then voilà. You have done migrate database
 6. Run the API
 
-# Run Frontend
+## Caution
+This project is using DevExpress to create Winforms application as Frontend. Makesure you have installed DevExpress in your computer. If not, go to DevExpress page `https://www.devexpress.com/` to install it. After installed it, you're good to go
+
+## Run Frontend
 1. Open Frontend project (WinForms) in Visual Studio 2022
 2. Build and run
-
-# Setup Database
-- Update connection strings in `appsettings.json`
-- Run EF Core migrations or SQL scripts (if provided)
