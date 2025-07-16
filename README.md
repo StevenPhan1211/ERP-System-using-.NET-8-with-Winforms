@@ -30,11 +30,11 @@ This solution consists of two main components:
 ```bash
 HTHGroup_ERP/
 │
-├── Backend/              # .NET 8 Web API with Clean Architecture
-│   ├── Infrastructure/   # Data access & external services
-│   ├── Core/             # Business entities and interfaces
-│   ├── Application/      # Use cases and DTOs
-│   └── Presentation/     # API Controllers
+├── Backend/                  # .NET 8 Web API with Clean Architecture
+│   ├── ERP.Infrastructure/   # Data access & external services
+│   ├── ERP.Core/             # Business entities and interfaces
+│   ├── ERP.Application/      # Use cases and DTOs
+│   └── ERP.Api/              # API Controllers
 │
 ├── Frontend/             # WinForms UI (.NET Framework 4.8)
 │   ├── BLL/              # Bussiness Logic Layer to get API endpoints
@@ -63,10 +63,12 @@ Prerequisites
 ## How to Run Project
 
 # Run Backend
-1. Open Backend project in Visual Studio 2022
-2. Restore NuGet packages
-3. Set `Presentation` project as startup
-4. Run the API
+1. Open Visual Studio 2022
+2. Clone this Repository by using command `https://github.com/StevenPhan1211/ERP-System-using-.NET-8-with-Winforms.git`
+3. Restore NuGet packages
+4. Because I am using Code-first to generate database so you should go to `Appsetting.json` in `ERRP.Api` layer to setting your database environment
+5. Open `Tools` --> `NuGet Package Manager` --> `Package Manager Console` --> Choose Default Project `ERP.Infrastructure` and run this command `Update-Database` then voilà. You have done migrate database
+6. Run the API
 
 # Run Frontend
 1. Open Frontend project (WinForms) in Visual Studio 2022
